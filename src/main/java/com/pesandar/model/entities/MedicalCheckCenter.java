@@ -7,7 +7,6 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 @SuppressWarnings({ "serial", "unused" })
 @Entity
-
 public class MedicalCheckCenter implements Serializable {
 	@Id
 	private int id;
@@ -16,6 +15,7 @@ public class MedicalCheckCenter implements Serializable {
 	private String duration;
 	private String sideaffect;
 	private String cost;
+	
 	public String getPart() {
 		return part;
 	}

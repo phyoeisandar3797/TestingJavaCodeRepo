@@ -21,8 +21,7 @@
   	<dependency>
   		<groupId>org.hibernate</groupId>
   		<artifactId>hibernate-core</artifactId>
-  		<version>5.0.12.Final</version>
-  		<type>jar.lastUpdated</type>
+  		<version>5.2.14.Final</version>
   	</dependency>
   </dependencies>
 </project>
